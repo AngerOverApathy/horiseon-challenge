@@ -8,6 +8,8 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Header Styling */
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,7 +26,7 @@ body {
     color: #d9dcd6;
 }
 
-.header div {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +34,11 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -49,6 +51,8 @@ a {
 p {
     font-size: 16px;
 }
+
+/* End header styling, begin hero styling */
 
 .hero {
     height: 800px;
@@ -69,11 +73,14 @@ p {
     margin-left: 25px;
 }
 
+/* Content and information styling for SEO, Online Reputation, and Media Marketing */
+
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
 
 .information {
     margin-bottom: 20px;
@@ -92,6 +99,8 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/* Benefits styling */
 
 .benefits {
     margin-right: 20px;
@@ -119,6 +128,8 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+
+/* Footer styling */
 
 .footer {
     padding: 30px;
